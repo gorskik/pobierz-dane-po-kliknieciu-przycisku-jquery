@@ -10,14 +10,14 @@ $(document).ready(function() {
 
 //             let pId = $('<p></p>').text(`Post ID: ${data.id}`);
 //             let pUserId = $('<p></p>').text(`User ID: ${data.userId}`);
-//             let pTitel = $('<p></p>').text(`Titel: ${data.titel}`);
+//             let pTitle = $('<p></p>').text(`Title: ${data.title}`);
 //             let pBody = $('<p></p>').text(`Body: ${data.body}`);
 //             let hr = $('<hr/>');
 //             let jqBody = $('body');
 
 //             jqBody.append(pId);
 //             jqBody.append(pUserId);
-//             jqBody.append(pTitel);
+//             jqBody.append(pTitle);
 //             jqBody.append(pBody);
 //             jqBody.append(hr);
 
@@ -39,14 +39,14 @@ $('#get-data').click(function() {
 
         let pId = $('<p></p>').text(`Post ID: ${data.id}`);
         let pUserId = $('<p></p>').text(`User ID: ${data.userId}`);
-        let pTitel = $('<p></p>').text(`Titel: ${data.titel}`);
+        let pTitle = $('<p></p>').text(`Title: ${data.title}`);
         let pBody = $('<p></p>').text(`Body: ${data.body}`);
         let hr = $('<hr/>');
         let jqBody = $('body');
 
         jqBody.append(pId);
         jqBody.append(pUserId);
-        jqBody.append(pTitel);
+        jqBody.append(pTitle);
         jqBody.append(pBody);
         jqBody.append(hr);
 
